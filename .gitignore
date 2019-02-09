@@ -1,0 +1,5 @@
+node_modules
+.serverless
+.env
+.idea
+.DS_Store
