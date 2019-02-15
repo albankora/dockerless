@@ -2,6 +2,12 @@
 
 Boilerplate for running serverless framework on docker
 
+## Setup environment variables
+```bash
+cp .env.example .env
+```
+Update `.env` file using your AWS credentials
+
 ## Build your app
 ```bash
 ./app build
