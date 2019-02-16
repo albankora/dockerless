@@ -16,7 +16,7 @@ function usage() {
   echo "Development commands:"
   echo "  build              Build the docker container"
   echo "  bash               Login to docker bash interface as ROOT"
-  echo "  exec   [COMMAND]   Run a command as ROOT inside the docker container"
+  echo "  npm    [COMMAND]   Run npm commands inside the docker container"
   echo "  sls    [COMMAND]   Run a serverless command inside doker"
   echo ""
   exit 0
@@ -26,9 +26,9 @@ COMPOSE="docker-compose"
 
 if [ $# -gt 0 ];then
 
-    if [ "$1" == "exec" ]; then
+    if [ "$1" == "npm" ]; then
         shift 1
-        ${COMPOSE} exec -v $(pwd):/app app "$@"
+        ${COMPOSE} run --rm -v $(pwd):/app app npm "$@"
 
     elif [ "$1" == "bash" ]; then
         ${COMPOSE} run --rm -v $(pwd):/app app bash
