@@ -44,7 +44,7 @@ Docker commands:
 Development commands:
   build              Build the docker container
   bash               Login to docker bash interface as ROOT
-  exec   [COMMAND]   Run a command as ROOT inside the docker container
+  npm    [COMMAND]   Run npm commands inside the docker container
   sls    [COMMAND]   Run a serverless command inside doker
 ```
 
