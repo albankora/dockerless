@@ -33,16 +33,14 @@ You can use different templates based on your language of preference and your cl
 ## All availiable commands
 ```bash
 Docker commands:
-  stop               Stops docker containers
+  build              Build the docker container
   config             Split out the docker-conpose file used
-  logs   [PARAMS]    See docker logs, add param -f to tail logs
   rm     [PARAMS]    Remove docker containers, add -v to remove volumes also
   down   [PARAMS]    Stop and remove containers and networks, extra params:
                            -v to remove volumes
                            --rmi type [local, all] to remove images
 
 Development commands:
-  build              Build the docker container
   bash               Login to docker bash interface as ROOT
   npm    [COMMAND]   Run npm commands inside the docker container
   sls    [COMMAND]   Run a serverless command inside doker
