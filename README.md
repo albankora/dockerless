@@ -43,7 +43,7 @@ Docker commands:
 Development commands:
   bash               Login to docker bash interface as ROOT
   npm    [COMMAND]   Run npm commands inside the docker container
-  sls    [COMMAND]   Run a serverless command inside doker
+  sls    [COMMAND]   Run a serverless commands inside doker
 ```
 
 ## Aws Credentials 
