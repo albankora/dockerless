@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Serverless Framework on Docker",
   "repository": "https://gitlab.com/albankora/dockerless",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "serverless-pseudo-parameters": "^2.4.0"
+  }
 }
