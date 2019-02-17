@@ -15,7 +15,7 @@ function usage() {
   echo "Development commands:"
   echo "  bash               Login to docker bash interface as ROOT"
   echo "  npm    [COMMAND]   Run npm commands inside the docker container"
-  echo "  sls    [COMMAND]   Run a serverless command inside doker"
+  echo "  sls    [COMMAND]   Run a serverless commands inside doker"
   echo ""
   exit 0
 }
