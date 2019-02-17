@@ -62,3 +62,10 @@ If your credentials are setup correctly then run:
 ```
  and your app will be packed and deploy to the right enviroment base on `serverless.yml`
  
+## Extending serverless.yml
+Plugins to consider:
+```yaml
+plugins:
+  - serverless-pseudo-parameters
+```
+ 
