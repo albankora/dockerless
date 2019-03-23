@@ -1,7 +1,7 @@
 {
   "name": "dockerless",
   "version": "1.0.0",
-  "description": "Docker for Serverless Environment",
+  "description": "Serverless Framework on Docker",
   "repository": "https://gitlab.com/albankora/dockerless",
   "license": "MIT",
   "dependencies": {
