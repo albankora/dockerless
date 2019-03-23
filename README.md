@@ -33,32 +33,19 @@ You can use different templates based on your language of preference and your cl
 ## All availiable commands
 ```bash
 Docker commands:
-<<<<<<< HEAD
   build                Build the docker container
   config               Split out the docker-conpose file used
   rm     [PARAMS]      Remove docker containers, add -v to remove volumes also
   down   [PARAMS]      Stop and remove containers and networks, extra params:
-=======
-  build              Build the docker container
-  config             Split out the docker-conpose file used
-  rm     [PARAMS]    Remove docker containers, add -v to remove volumes also
-  down   [PARAMS]    Stop and remove containers and networks, extra params:
->>>>>>> 2e2f4dc116d0987b1b33ef6869d620eb40bab114
                            -v to remove volumes
                            --rmi type [local, all] to remove images
 
 Development commands:
-<<<<<<< HEAD
   connect              Login to docker shell interface
   npm    [COMMAND]     Run npm commands inside the docker container
   sls    [COMMAND]     Run a serverless command inside doker
   invoke [-f FUNCTION] Invoke a local serverless function
   deploy               Deploy to your sandbox
-=======
-  bash               Login to docker bash interface as ROOT
-  npm    [COMMAND]   Run npm commands inside the docker container
-  sls    [COMMAND]   Run a serverless commands inside doker
->>>>>>> 2e2f4dc116d0987b1b33ef6869d620eb40bab114
 ```
 
 ## Aws Credentials 
