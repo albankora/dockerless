@@ -1,8 +1,7 @@
-FROM node:8-alpine
+FROM node:8.10-alpine
 
-RUN apk update \
-    && apk add bash \
-    && npm install -g serverless@1.37.1 \
-    && npm install -g serverless-offline@4.3.0
+RUN rm -rf /var/cache/apk/*
 
 WORKDIR /app
+
+COPY package*.json /app/

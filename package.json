@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "description": "Docker for Serverless Environment",
   "repository": "https://gitlab.com/albankora/dockerless",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "serverless": "1.39.1",
+    "serverless-offline": "4.9.2",
+    "serverless-pseudo-parameters": "^2.4.0"
+  }
 }
